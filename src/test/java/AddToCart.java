@@ -1,7 +1,10 @@
 
 public class AddToCart {
 	
-	public void AddToCart() {
+	WebDriver driver;
+	public void AddToCart(WebDriver driver) {
+		
+		this.driver=driver;
 		
 		System.out.println("AddToCart");
 		
@@ -12,7 +15,8 @@ public class AddToCart {
 		// we will update code and again send for review
 		// if code is correct then we will do merge pull request to master 
 	}
-	public void AddToCart2() {    
+	
+	public void AddToCart2( ) {    
 		
 		System.out.println("AddToCart2");
 		
