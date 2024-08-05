@@ -1,3 +1,4 @@
+import org.openqa.selenium.WebDriver;
 
 public class AddToCart {
 	
@@ -17,6 +18,13 @@ public class AddToCart {
 	}
 	
 	public void AddToCart2( ) {    
+		
+		System.out.println("AddToCart2");
+		
+	}
+	
+   public void AddToCart3() { 
+	   // initialise driver 2
 		
 		System.out.println("AddToCart2");
 		
