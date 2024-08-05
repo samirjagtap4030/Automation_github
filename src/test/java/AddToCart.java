@@ -23,7 +23,8 @@ public class AddToCart {
 		
 	}
 	
-   public void AddToCart3( ) {    
+   public void AddToCart3() { 
+	   // initialise driver 2
 		
 		System.out.println("AddToCart2");
 		
